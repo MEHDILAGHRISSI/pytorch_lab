@@ -1,0 +1,8 @@
+# Environment & IDE
+.venv/
+.idea/
+__pycache__/
+
+# Large datasets
+data_set/
+*.csv
