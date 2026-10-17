@@ -1,11 +1,17 @@
 # Deep Learning Lab — Regression & Multi-Class Classification with PyTorch
 
 **Author:** Mehdi Laghrissi
+
 **Institution:** Université Abdelmalek Essaâdi — FST Tanger
+
 **Department:** Génie Informatique
+
 **Cycle:** Ingénierie des Logiciels et Systèmes Intelligents
+
 **Course:** Deep Learning
+
 **Professor:** Pr. ELAACHAK LOTFI
+
 **Repository:** [https://github.com/MEHDILAGHRISSI/pytorch_lab](https://github.com/MEHDILAGHRISSI/pytorch_lab)
 
 ---
