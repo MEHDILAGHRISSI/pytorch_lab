@@ -1,0 +1,5 @@
+Configuration,Train Acc (%),Test Acc (%),Gap Overfitting (%),Test Loss,Macro F1,Weighted F1
+1. Aucune régularisation,99.1,94.0,5.1,0.3689,0.5633,0.9577
+2. Dropout uniquement (0.3),98.3,89.85,8.45,0.3476,0.4848,0.9307
+3. Weight Decay L2 (1e-3),98.79,91.9,6.89,0.2804,0.4995,0.9423
+4. Combinée (BatchNorm + Dropout + L2),98.44,89.85,8.59,0.3206,0.4874,0.9311

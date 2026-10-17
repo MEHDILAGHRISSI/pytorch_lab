@@ -10,7 +10,8 @@ from xgboost import XGBRegressor
 # 1. LOAD & ENGINEER FEATURES
 # ==========================================
 print("Loading dataset...")
-df = pd.read_csv("prices-split-adjusted.csv")
+# Update path if the file is inside data_set/
+df = pd.read_csv("data_set/prices-split-adjusted.csv")
 df["date"] = pd.to_datetime(df["date"])
 df = df.sort_values(by=["symbol", "date"]).reset_index(drop=True)
 
@@ -44,7 +45,7 @@ def create_features(group):
 
 
 print("Engineering features per ticker symbol...")
-df_featured = df.groupby("symbol", group_keys=False).apply(create_features)
+df_featured = df.groupby("symbol", group_keys=False).apply(create_features, include_groups=False)
 df_clean = df_featured.dropna().reset_index(drop=True)
 
 # ==========================================

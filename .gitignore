@@ -1,8 +1,25 @@
-# Environment & IDE
-.venv/
-.idea/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 
-# Large datasets
-data_set/
-*.csv
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Data (CSV files)
+part1/data_set/*.csv
+part2/dataset/*.csv
+
+# Large HTML Reports (Excluded from Git)
+part1/exploratory/reports/*.html
+part2/dataset/*.html
+
+# OS Files
+.DS_Store
+Thumbs.db
